@@ -3,10 +3,8 @@
 }
 
 svg {
-	width: 35%;
-	height: 35%;
-	grid-column-start: 2;
-	grid-column-end: 2;
+	width: 150%;
+	height: 150%;
 	display: block;
 	margin: auto;
 }
