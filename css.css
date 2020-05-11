@@ -2,6 +2,12 @@
 	background-color: #EB4524;
 }
 
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
 svg {
 	width: 150%;
 	height: 150%;
