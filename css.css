@@ -1,0 +1,13 @@
+* {
+	background-color: #EB4524;
+}
+
+svg {
+	width: 35%;
+	height: 35%;
+	grid-column-start: 2;
+	grid-column-end: 2;
+	display: block;
+	margin: auto;
+}
+
