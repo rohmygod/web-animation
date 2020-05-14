@@ -15,3 +15,32 @@ svg {
 	margin: auto;
 }
 
+#Schaduw_wolk_voorgrond_5{
+	animation-name: zweef;
+	animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#Wolkjes_achter_gebouw {
+	animation-name: zweef;
+	animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#Wolkje_voor_gebouw {
+	animation-name: zweef;
+	animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+
+@keyframes zweef {
+  from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+}
+
+
