@@ -43,4 +43,112 @@ svg {
     to   { transform: translate(0, -0px); }    
 }
 
+#B {
+	opacity:0; 
+	animation:verschijnen ease-in 1s;
+	animation-fill-mode:forwards;
+	animation-duration:2s;
+}
+
+#Achter_B {
+	opacity:0; 
+	animation:verschijnen ease-in 1s;
+	animation-fill-mode:forwards;
+	animation-duration:4s;
+}
+
+#E {
+	opacity:0; 
+	animation:verschijnen ease-in 1s;
+	animation-fill-mode:forwards;
+	animation-duration:2s;
+	animation-delay: 0.7s;
+} 
+
+#R {
+	opacity:0; 
+	animation:verschijnen ease-in 1s;
+	animation-fill-mode:forwards;
+	animation-duration:2s;
+	animation-delay: 0.7s;
+}
+
+#L {
+	opacity:0; 
+	animation:verschijnen ease-in 1s;
+	animation-fill-mode:forwards;
+	animation-duration:2s;
+	animation-delay: 1.4s;
+}
+
+#I {
+	opacity:0; 
+	animation:verschijnen ease-in 1s;
+	animation-fill-mode:forwards;
+	animation-duration:2s;
+}
+
+#N {
+	opacity:0; 
+	animation:verschijnen ease-in 1s;
+	animation-fill-mode:forwards;
+	animation-duration:2s;
+	animation-delay: 1.4s;
+}
+
+
+@keyframes verschijnen { 
+	from { opacity:0; } 
+	to { opacity:1; } 
+}
+
+
+#Boom_1 {
+	animation:groei ease-in 1s;
+	animation-duration: 2s;
+}
+
+
+#Boom_2 {
+	animation:groei ease-in 1s;
+	animation-duration: 2s;
+	animation-delay: 0.2s
+}
+
+
+#Boom_3_1_ {
+	animation:groei ease-in 1s;
+	animation-duration: 2s;
+	animation-delay: 0.4s;
+}
+
+
+#Boom_4 {
+	animation:groei ease-in 1s;
+	animation-duration: 2s;
+	animation-delay: 0.6s;
+}
+
+
+#Boom_5 {
+	animation:groei ease-in 1s;
+	animation-duration: 2s;
+	animation-delay: 0.8s;
+}
+
+@keyframes groei {
+	0% { 
+		transform: scaleY(0)
+	}
+	75% { 
+		transform: scaleY(1)
+	}
+	85% { 
+		transform: scaleY(0.9)
+	}
+	100% { 
+		transform: scaleY(1)
+	}
+	
+}
 
