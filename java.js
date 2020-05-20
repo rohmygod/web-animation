@@ -1,0 +1,8 @@
+
+
+eventTarget.addEventListener("keydown", event => {
+  if (event.isComposing || event.keyCode === 229) {
+    return;
+  }
+  // do something
+});
