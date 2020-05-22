@@ -9,8 +9,8 @@ align-items: center;
 }
 
 svg {
-	width: 150%;
-	height: 150%;
+	width: 100vw;
+	height: 90vw;
 	display: block;
 	margin: auto;
 }
@@ -159,4 +159,24 @@ svg {
  #Trein_2_:hover {
     transform: translate(-25px, 10px);
   }
+
+
+#Boot {
+	animation: boot;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
+
+@keyframes boot {
+ 0% {
+    transform: rotate(1deg) translate(-15px);
+  }
+  50% {
+    transform: rotate(-2deg) translate(-20px);
+  }
+  100% {
+    transform: rotate(1deg) translate(-15px);
+	}
+}
+
