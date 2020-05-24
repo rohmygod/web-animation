@@ -21,7 +21,6 @@
 	.st15{fill:#B61919;}
 	.st16{fill:#C72C21;}
 	.st17{fill:#ABAD95;}
-	.st18{fill:#1A7A70;}
 </style>
 <polygon class="st0" points="0,1564.3 739.4,1145.1 738.6,857.1 0,1270.5 "/>
 <g id="Wolkjes_achter_gebouw">
@@ -805,5 +804,4 @@
 	<path id="Mast_links" class="st5" d="M370.9,1004.8l-40.6,122.5c0,0,29.6-6.9,40.6,1.8V1004.8z"/>
 </g>
 <path id="Golf" class="st0" d="M276.5,1167.7c0,0,105.8-35.9,214.1-12.1"/>
-<rect id="Test" x="972.6" y="384" class="st18" width="26" height="46"/>
 </svg>

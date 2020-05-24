@@ -1,41 +1,97 @@
-* {
+/*  ------------------------------ BASICS  ------------------------------*/
+body {
+	align-items: center;
 	background-color: #EB4524;
+	display: flex;
+	justify-content: center;
 }
 
-body {
-display: flex;
-justify-content: center;
-align-items: center;
+svg, h1 {
+	animation: verschijnen 5s;
 }
 
 svg {
-	width: 100vw;
 	height: 90vw;
 	display: block;
 	margin: auto;
+	position: relative;
+	z-index: 1;
 }
 
-#Schaduw_wolk_voorgrond_5{
+@keyframes verschijnen {
+	from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+/*  ------------------------------ NEON LETTERS ANIMATIE  ------------------------------*/
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	color: #272C25;
+	position: absolute;
+	top: 4.5vw;
+	left: 45vw;
+	transform: skew(0deg, 35deg);
+	z-index: 2;
+}
+
+h1:hover {
+	text-shadow: 0 0 0.6rem #fff5e6, 0 0 1.5rem #ffdb65, -0.2rem 0.1rem 1rem #ffdb65, 
+	0.2rem 0.1rem 1rem #ffdb65, 0 -0.5rem 2rem #ffcc24, 0 0.5rem 3rem #ffcc24;
+	top: 4.5vw;
+	left: 45vw;
+	transform: skew(0deg, 35deg);
+	animation: blink 3s infinite;
+}
+
+
+@keyframes blink {
+  78% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  79%{
+     color: #333;
+  }
+  80% {
+    
+    text-shadow: none;
+  }
+  81% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  82% {
+    color: #333;
+    text-shadow: none;
+  }
+  83% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  92% {
+    color: #333;
+    text-shadow: none;
+  }
+  92.5% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+}
+
+
+
+/*  --------------------------------- WOLK ANIMATIES  ---------------------------------*/
+#Schaduw_wolk_voorgrond_5, #Wolkjes_achter_gebouw, #Wolkje_voor_gebouw{
 	animation-name: zweef;
 	animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
-
-#Wolkjes_achter_gebouw {
-	animation-name: zweef;
-	animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-}
-
-#Wolkje_voor_gebouw {
-	animation-name: zweef;
-	animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-}
-
 
 @keyframes zweef {
   from { transform: translate(0,  0px); }
@@ -43,18 +99,23 @@ svg {
     to   { transform: translate(0, -0px); }    
 }
 
+
+
+/*  ------------------------------ LETTERS ANIMATIE  ------------------------------*/
 #B {
 	opacity:0; 
 	animation:verschijnen ease-in 1s;
 	animation-fill-mode:forwards;
 	animation-duration:2s;
+	animation-delay: 2.5s;
 }
 
 #Achter_B {
 	opacity:0; 
 	animation:verschijnen ease-in 1s;
 	animation-fill-mode:forwards;
-	animation-duration:4s;
+	animation-duration:2s;
+	animation-delay: 2.5s;
 }
 
 #E {
@@ -62,7 +123,7 @@ svg {
 	animation:verschijnen ease-in 1s;
 	animation-fill-mode:forwards;
 	animation-duration:2s;
-	animation-delay: 0.7s;
+	animation-delay: 3.2s;
 } 
 
 #R {
@@ -70,7 +131,7 @@ svg {
 	animation:verschijnen ease-in 1s;
 	animation-fill-mode:forwards;
 	animation-duration:2s;
-	animation-delay: 0.7s;
+	animation-delay: 3.2s;
 }
 
 #L {
@@ -78,7 +139,7 @@ svg {
 	animation:verschijnen ease-in 1s;
 	animation-fill-mode:forwards;
 	animation-duration:2s;
-	animation-delay: 1.4s;
+	animation-delay: 3.9s;
 }
 
 #I {
@@ -86,6 +147,7 @@ svg {
 	animation:verschijnen ease-in 1s;
 	animation-fill-mode:forwards;
 	animation-duration:2s;
+	animation-delay: 2.5s;
 }
 
 #N {
@@ -93,7 +155,7 @@ svg {
 	animation:verschijnen ease-in 1s;
 	animation-fill-mode:forwards;
 	animation-duration:2s;
-	animation-delay: 1.4s;
+	animation-delay: 3.9s;
 }
 
 
@@ -103,6 +165,11 @@ svg {
 }
 
 
+
+
+
+
+/*  ------------------------------ BOOM ANIMATIES  ------------------------------*/
 #Boom_1 {
 	animation:groei ease-in 1s;
 	animation-duration: 2s;
@@ -152,6 +219,11 @@ svg {
 	
 }
 
+
+
+
+
+/*  ------------------------------ TREIN HOVER ANIMATIE  ------------------------------*/
 #Trein_2_ {
 	transition: transform 0.5s;
 }
@@ -161,6 +233,19 @@ svg {
   }
 
 
+
+/*  ------------------------------ TREIN HOVER ANIMATIE  ------------------------------*/
+#Fiets {
+	transition: transform 0.5s;
+}
+  
+ #Fiets:hover {
+    transform: translate(25px, -10px);
+  }
+
+
+
+/*  ------------------------------ BOOT ANIMATIE  ------------------------------*/
 #Boot {
 	animation: boot;
 	animation-duration: 5s;
@@ -179,4 +264,176 @@ svg {
     transform: rotate(1deg) translate(-15px);
 	}
 }
+
+
+
+
+/*  ------------------------------ VUURWERK ANIMATIE ------------------------------*/
+.hidden {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+
+#vuurwerk {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	background-color: #2c2f69;
+}
+
+.firework {
+	position: relative;
+}
+
+.explosion {
+	position: absolute;
+	left: 20vw;
+	bottom: 0;
+	width: 4px;
+	height: 80px;
+	transform-origin: 50% 100%;
+	overflow: hidden;
+}
+
+.explosion:nth-child(1) {
+	transform: rotate(0deg) translateY(-15px);
+}
+
+.explosion:nth-child(2) {
+	transform: rotate(30deg) translateY(-15px);
+}
+
+.explosion:nth-child(3) {
+	transform: rotate(60deg) translateY(-15px);
+}
+
+.explosion:nth-child(4) {
+	transform: rotate(90deg) translateY(-15px);
+}
+
+.explosion:nth-child(5) {
+	transform: rotate(120deg) translateY(-15px);
+}
+
+.explosion:nth-child(6) {
+	transform: rotate(150deg) translateY(-15px);
+}
+
+.explosion:nth-child(7) {
+	transform: rotate(180deg) translateY(-15px);
+}
+
+.explosion:nth-child(8) {
+	transform: rotate(210deg) translateY(-15px);
+}
+
+.explosion:nth-child(9) {
+	transform: rotate(240deg) translateY(-15px);
+}
+
+.explosion:nth-child(10) {
+	transform: rotate(270deg) translateY(-15px);
+}
+
+.explosion:nth-child(11) {
+	transform: rotate(300deg) translateY(-15px);
+}
+
+.explosion:nth-child(12) {
+	transform: rotate(330deg) translateY(-15px);
+}
+
+.explosion:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 100%;
+	height: 40px;
+	background-color: #f5cf52;
+	animation: explosion 4s ease-in-out infinite;
+}
+
+@keyframes explosion {
+	0% {
+		top: 100%;
+	}
+	33%, 100% {
+		top: -50%;
+	}
+}
+
+
+#firework2 {
+	left: 70vw;
+	top: 10vw;
+	transform: scale(0.5);
+}
+
+#firework3 {
+	left: 70vw;
+	top: 5vw;
+	transform: scale(0.8);
+}
+
+#firework4 {
+	left: 4vw;
+	top: 20vw;
+	transform: scale(0.3);
+}
+
+
+
+
+
+/*  --------------------------------- RAMEN ---------------------------------*/
+
+
+/*  --------------------------------- MOBILE FORMAAT ---------------------------------*/
+@media screen and (max-width: 590px)  {
+
+	svg {
+		top: 200px;
+	}
+
+	h1 {
+		top: 5vw;
+		right: 60vw;
+		text-align: center;
+		font-size: 28px;
+	}
+
+	#firework2 {
+	left: 70vw;
+	top: 80vw;
+	transform: scale(0.5);
+}
+
+#firework3 {
+	left: 70vw;
+	top: 60vw;
+	transform: scale(0.8);
+}
+
+#firework4 {
+	left: 4vw;
+	top: 40vw;
+	transform: scale(0.3);
+}
+
+#firework1 {
+	left: 20vw;
+	top: 50vw;
+	transform: scale(0.3);
+}
+
+
+}
+
 
