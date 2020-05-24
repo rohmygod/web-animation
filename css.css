@@ -266,14 +266,14 @@ h1:hover {
 
 
 /*  ------------------------------ VUURWERK ANIMATIE ------------------------------*/
-.hidden {
+/*.hidden {
 	display: none;
 }
 
 .show {
 	display: block;
+	display: inline;
 }
-
 
 #vuurwerk {
 	margin: 0;
@@ -384,34 +384,16 @@ h1:hover {
 	top: 20vw;
 	transform: scale(0.3);
 }
-
+*/
 
 
 
 
 /*  --------------------------------- BUTTON ---------------------------------*/
 
-.button {
-	position: absolute;
-	padding:0.7em 1.4em;
- 	margin:0 0.3em 0.3em 0;
-	bottom: 1vw;
-	left: 46%;
-	z-index: 2;
-	font-weight:400;
-	text-transform:uppercase;
-	background-color: #f5cf52;
-	font-family: 'Raleway', sans-serif;
-	border-radius: 2px;
-	border-color: #f5cf52;
-}
-
-.button:hover {
- backgorund-color: #f7be00;
-}
 
 /*  --------------------------------- MOBILE FORMAAT ---------------------------------*/
-@media screen and (max-width: 590px)  {
+/*@media screen and (max-width: 590px)  {
 
 	svg {
 		top: 200px;
@@ -449,6 +431,6 @@ h1:hover {
 }
 
 
-}
+}*/
 
 

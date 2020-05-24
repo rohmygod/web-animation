@@ -14,5 +14,8 @@ var fire = document.getElementById('vuurwerk');
 		if (event.keyCode === 38){
 			fire.classList.toggle('show');
 			fire.classList.remove('hidden');
+
 		}
-	}
+	};
+
+
