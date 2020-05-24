@@ -1,9 +1,7 @@
 /*  ------------------------------ BASICS  ------------------------------*/
 body {
-	align-items: center;
 	background-color: #EB4524;
-	display: flex;
-	justify-content: center;
+	font-family: 'Raleway', sans-serif;
 }
 
 svg, h1 {
@@ -29,7 +27,6 @@ svg {
 
 /*  ------------------------------ NEON LETTERS ANIMATIE  ------------------------------*/
 h1 {
-	font-family: 'Raleway', sans-serif;
 	font-size: 18px;
 	color: #272C25;
 	position: absolute;
@@ -392,8 +389,26 @@ h1:hover {
 
 
 
-/*  --------------------------------- RAMEN ---------------------------------*/
+/*  --------------------------------- BUTTON ---------------------------------*/
 
+.button {
+	position: absolute;
+	padding:0.7em 1.4em;
+ 	margin:0 0.3em 0.3em 0;
+	bottom: 1vw;
+	left: 46%;
+	z-index: 2;
+	font-weight:400;
+	text-transform:uppercase;
+	background-color: #f5cf52;
+	font-family: 'Raleway', sans-serif;
+	border-radius: 2px;
+	border-color: #f5cf52;
+}
+
+.button:hover {
+ backgorund-color: #f7be00;
+}
 
 /*  --------------------------------- MOBILE FORMAAT ---------------------------------*/
 @media screen and (max-width: 590px)  {
