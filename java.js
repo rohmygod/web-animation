@@ -19,3 +19,13 @@ var fire = document.getElementById('vuurwerk');
 	};
 
 
+var vliegen = document.getElementById('vlieg');
+	window.addEventListener('keydown', toggle1);
+
+	function toggle1(event){
+		if (event.keyCode === 86){
+			vliegen.classList.toggle('show');
+			vliegen.classList.toggle('hidden');
+
+		}
+	};

@@ -4,6 +4,13 @@ body {
 	font-family: 'Raleway', sans-serif;
 }
 
+img {
+	z-index: -1;
+	position: absolute;
+	width: 100%;
+	height: 90vw;
+}
+
 svg, h1 {
 	animation: verschijnen 5s;
 }
@@ -25,6 +32,8 @@ svg {
     }
 }
 
+
+
 /*  ------------------------------ NEON LETTERS ANIMATIE  ------------------------------*/
 h1 {
 	font-size: 18px;
@@ -44,7 +53,6 @@ h1:hover {
 	transform: skew(0deg, 35deg);
 	animation: blink 3s infinite;
 }
-
 
 @keyframes blink {
   78% {
@@ -422,4 +430,46 @@ h1:hover {
 
 }*/
 
+
+#vlieg {
+	transform: scale(0.5);
+	left: 0;
+}
+
+.planePath {
+  stroke: #FFFFFF;
+  stroke-width: .1%;
+  stroke-width: .5%;
+  stroke-dasharray: 1% 2%;
+  stroke-linecap: round;
+  fill: none;
+}
+
+#vliegtuig {
+	transform: scale(2);
+}
+
+#Achtervleugel_2 {
+  fill: #b7b7a1;
+}
+
+#Achtervleugel_1 {
+  fill: #d1d5b8;
+}
+
+#Romp {
+  fill: #b7b7a1;
+}
+
+#Vleugel {
+  fill: #d1d5b8;
+}
+
+#Streep {
+	fill: #d1d5b8;
+}
+
+#Raam {
+	fill: #272c25;
+}
 

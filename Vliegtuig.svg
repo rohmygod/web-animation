@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Vliegtuig" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 215 94" style="enable-background:new 0 0 215 94;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#B7B7A1;}
+	.st1{fill:#D1D5B8;}
+	.st2{opacity:0.32;fill:#B7B7A1;}
+	.st3{fill:#272C25;}
+</style>
+<g>
+	<path id="Achtervleugel_2" class="st0" d="M20,67L0,35c0,0-1-10,10-8l48,30L20,67z"/>
+	<path id="Achtervleugel_1" class="st1" d="M41.8,46.9c0,0-14,9.9-34.4,0L0,35c0,0-1-10,10-8L41.8,46.9z"/>
+	<path id="Romp" class="st2" d="M58,57l89-22c0,0,8-4,16-3l45,3c0,0,10,3,6,19c0,0-25,18-105,37c0,0-29,5-55,3c0,0-19-4-38-11
+		c0,0-13-11,5-16L58,57z"/>
+	<path id="Vleugel" class="st1" d="M113,73L71,10c0,0-6-8,8-10l87,58L113,73z"/>
+	<polygon id="Streep" class="st1" points="39.7,90.5 214.9,43.5 214.9,49.3 49.3,94.5 	"/>
+	<path id="Raam" class="st3" d="M179.8,32.8c0,0,4.2,14.2,14.2,7.2l14-5L179.8,32.8z"/>
+</g>
+</svg>
