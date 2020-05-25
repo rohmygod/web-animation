@@ -13,7 +13,7 @@ var fire = document.getElementById('vuurwerk');
 	function toggle(event){
 		if (event.keyCode === 38){
 			fire.classList.toggle('show');
-			fire.classList.remove('hidden');
+			fire.classList.toggle('hidden');
 
 		}
 	};
