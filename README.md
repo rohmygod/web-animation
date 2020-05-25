@@ -72,6 +72,8 @@ Het andere idee wat ik had was zoals eerder genoemd de neon letters in de svg, i
 # `Wat vond ik van dit vak`
 Super leuk! Ik vind code zelf nog wel lastig af en toe, maar ben al heel trots dat ik met wat gegoogle zoiets kan neerzetten en weet ook zeker dat ik met verschillende werken van anderen ook iets vets zou kunnen maken. Die basis van kennis heb ik inmiddels wel. Mijn java is er iets op vooruit gegaan, maar niet mega veel haha. Maar ik ben erg trots op mijn werk! Al helemaal aangezien er gister ineens een fout in mijn code zat waardoor niks meer werkte, oftewel pure paniek. Maar het is gelukt hahaha. 
 
+Wat ik wel erg jammer vind is dat het mijn niet gelukt is om m'n animaties ook op mobile werkend te krijgen. Ik heb gekeken naar longpress, maar kreeg dit gewoon met javascript niet in elkaar. Ik had wel voorbeelden met $ tekens in het script maar door die tekens werkte het ook niet, en lukte het me niet om een oplossing te vinden. Ook de click wilde niet helemaal zoals ik had gehoopt dus heb ik dit voor nu gelaten. 
+
 # `Bronnen`
 Hierbij mijn lijst aan gebruikte bronnen:
 
