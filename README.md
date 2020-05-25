@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 #De opdracht
 De gekregen opdracht is: maak een css / html / js versie van een gekozen kunstwerk uit een archief. Maak met gebruik van css leuke animaties om het kunstwerk minder statisch te maken.
+=======
+# `De opdracht`
+De gekregen opdracht is: maak een css / html / js versie van een gekozen kunstwerk uit een archief. Maak met gebruik van css leuke animaties om het kunstwerk minder statisch te maken. 
+
 
 
 #When we think of Berlin
