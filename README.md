@@ -60,8 +60,17 @@ Ik wilde ook dat als je de website opend het kunstwerk tevoorschijn komt, zodat 
 >Fade: ik heb heel simpel een keyframe animatie gemaakt waarvan de opacity van 0 naar 1 gaat, en dan met een ease om het te verzachten.
 >Boompjes: de boompjes heb ik met een transform; scaleY animatie gemaakt. De boom begint op 0, verspringt naar 1 en dan nog heel even terug naar 0.9 om het dat bounce effect te geven. 
 
+# `Niet gelukte ideeën & experimenten`
+Ik had graag nog een soort kaart willen verwerken in het kunstwerk, want het is ten slotte wel een city guide. Mijn oorspronkelijke idee was om van links en rechts de kaart in te laten scrollen, hoe verder je scrollde hoe meer de kaart verdween en hoe meer het kunstwerk naar voren kwam. Ik heb dit geprobeerd met javascript en een library van een andere website, alleen lukte mij dit helaas niet. 
+<img src="ReadmeImg/Test.png">
+<img src="ReadmeImg/Kaart2.png">
 
+Ik heb dit idee toen nog wel uitgewerkt door middel van een keypress, alleen vond ik dit erg saai en heb ik dit er dus weer uit gelaten en vervangen voor het vliegtuig. 
 
+Het andere idee wat ik had was zoals eerder genoemd de neon letters in de svg, ik wilde dit nog proberen door een svg te swappen op een keypress, maar dat kreeg ik helaas ook niet voor elkaar. 
+
+# `Wat vond ik van dit vak`
+Super leuk! Ik vind code zelf nog wel lastig af en toe, maar ben al heel trots dat ik met wat gegoogle zoiets kan neerzetten en weet ook zeker dat ik met verschillende werken van anderen ook iets vets zou kunnen maken. Die basis van kennis heb ik inmiddels wel. Mijn java is er iets op vooruit gegaan, maar niet mega veel haha. Maar ik ben erg trots op mijn werk! Al helemaal aangezien er gister ineens een fout in mijn code zat waardoor niks meer werkte, oftewel pure paniek. Maar het is gelukt hahaha. 
 
 # `Bronnen`
 Hierbij mijn lijst aan gebruikte bronnen:
