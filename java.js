@@ -27,5 +27,4 @@ var vliegen = document.getElementById('vlieg');
 			vliegen.classList.toggle('show');
 			vliegen.classList.toggle('hidden');
 
-		}
-	};
+		}	};
