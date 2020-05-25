@@ -385,51 +385,7 @@ h1:hover {
 
 
 
-
-/*  --------------------------------- BUTTON ---------------------------------*/
-
-
-/*  --------------------------------- MOBILE FORMAAT ---------------------------------*/
-/*@media screen and (max-width: 590px)  {
-
-	svg {
-		top: 200px;
-	}
-
-	h1 {
-		top: 5vw;
-		right: 60vw;
-		text-align: center;
-		font-size: 28px;
-	}
-
-	#firework2 {
-	left: 70vw;
-	top: 80vw;
-	transform: scale(0.5);
-}
-
-#firework3 {
-	left: 70vw;
-	top: 60vw;
-	transform: scale(0.8);
-}
-
-#firework4 {
-	left: 4vw;
-	top: 40vw;
-	transform: scale(0.3);
-}
-
-#firework1 {
-	left: 20vw;
-	top: 50vw;
-	transform: scale(0.3);
-}
-
-
-}*/
-
+/*  ------------------------------- VLIEGTUIG ANIMATIE -------------------------------*/
 
 #vlieg {
 	left: 0;
@@ -474,3 +430,47 @@ h1:hover {
 #Raam {
 	fill: #272c25;
 }
+
+
+/*  --------------------------------- BUTTON ---------------------------------*/
+
+
+/*  --------------------------------- MOBILE FORMAAT ---------------------------------*/
+@media screen and (max-width: 590px)  {
+
+	svg {
+		top: 200px;
+	}
+
+	h1 {
+		top: 5vw;
+		right: 60vw;
+		text-align: center;
+		font-size: 28px;
+	}
+
+	#firework2 {
+	left: 45vw;
+	top: 45vw;
+	transform: scale(0.5);
+}
+
+#firework3 {
+	left: 2vw;
+	top: 25vw;
+	transform: scale(0.6);
+}
+
+#firework4 {
+	left: 4vw;
+	top: 40vw;
+	transform: scale(0.3);
+}
+
+#firework1 {
+	left: 50vw;
+	top: 30vw;
+	transform: scale(0.3);
+}
+
+
